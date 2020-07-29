@@ -1,0 +1,7 @@
+namespace php demo_record
+namespace go demo_record
+
+
+service demoService{
+       string index(1:string param1,2:i64 param2)
+}
